@@ -2,9 +2,6 @@ package com.stephenyue.common.thread;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * Created by jiangwenping on 2017/6/6.
- */
 public class TestRunnable implements Runnable{
     private static AtomicInteger atomicInteger = new AtomicInteger();
     public void run() {
