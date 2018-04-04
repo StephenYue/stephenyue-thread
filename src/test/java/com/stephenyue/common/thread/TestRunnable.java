@@ -6,7 +6,7 @@ public class TestRunnable implements Runnable{
     private static AtomicInteger atomicInteger = new AtomicInteger();
     public void run() {
         try {
-            System.out.println(atomicInteger.getAndIncrement());
+            System.out.println(atomicInteger.getAndIncrement()+" ThreadId="+Thread.currentThread().getId());
             Thread.sleep(1 * 1000);
         } catch (Exception e) {
             e.printStackTrace();

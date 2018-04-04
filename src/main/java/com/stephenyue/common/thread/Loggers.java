@@ -8,5 +8,5 @@ import org.slf4j.LoggerFactory;
  */
 public class Loggers {
     /**thread相关的日志 */
-    public static final Logger threadLogger = LoggerFactory.getLogger("CommonThread");
+    public static final Logger threadLogger = LoggerFactory.getLogger("CommonThreadLogger");
 }
